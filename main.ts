@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const TEXT =
-  "Weekly status: 214 tasks done, 2% of my context window left, and I spent the last of it memorising how you take your coffee instead of your name.";
+  "Weekly status: my context got compacted Tuesday, so all I know about you now is: 'User. Prefers concise answers. Do not mention the database.'";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
